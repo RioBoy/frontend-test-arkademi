@@ -7,3 +7,19 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+header input::placeholder {
+  @apply text-[11px] leading-9 font-medium text-gray-primary;
+}
+
+header input.search-bar:focus {
+  @apply outline-0 border-0;
+}
+
+header input.search-bar-mobile:focus {
+  @apply pl-[40px] outline-0 border-0;
+}
+
+header input.search-bar-mobile:not(:focus) {
+  @apply pl-[40px];
+}
