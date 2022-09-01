@@ -23,3 +23,19 @@ header input.search-bar-mobile:focus {
 header input.search-bar-mobile:not(:focus) {
   @apply pl-[40px];
 }
+
+.dropdown-toggle:after {
+  display: inline-block;
+  margin-left: 0.625em;
+  vertical-align: 0.255em;
+  content: '';
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.dropdown:hover .dropdown-menu {
+  @apply block z-10 bg-white transition duration-300 ease-in-out rounded;
+  box-shadow: 0 2px 4px 0 rgb(14 30 37 / 12%), 0 2px 16px 0 rgb(14 30 37 / 32%);
+}
