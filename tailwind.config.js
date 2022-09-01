@@ -19,9 +19,13 @@ module.exports = {
         'yellow-primary': '#F7DE06',
         'orange-primary': '#FF8017',
         'pink-primary': '#F63C52',
+        'pink-secondary': '#FFE0E0',
+        'pink-third': '#F94759',
         'black-primary': '#1C1D20',
         'black-secondary': '#333539',
+        'black-third': '#3E3F43',
         'gray-primary': '#ACAEB2',
+        'gray-secondary': '#94969B',
       },
       screens: {
         xsm: { max: '376px' },

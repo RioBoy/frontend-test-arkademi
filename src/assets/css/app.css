@@ -39,3 +39,19 @@ header input.search-bar-mobile:not(:focus) {
   @apply block z-10 bg-white transition duration-300 ease-in-out rounded;
   box-shadow: 0 2px 4px 0 rgb(14 30 37 / 12%), 0 2px 16px 0 rgb(14 30 37 / 32%);
 }
+
+.trending .card,
+.flash-sale .card {
+  background-color: white;
+  filter: drop-shadow(0px 3.5px 4px rgba(0, 0, 0, 0.131556)) !important;
+}
+
+.flash-sale-bg {
+  background: linear-gradient(225.66deg, #ffaa5d -30.42%, #f63c3c 91.94%);
+}
+
+.flash-sale-bg li:nth-child(2) p::before,
+.flash-sale-bg li:nth-child(2) p::after {
+  content: ':';
+  padding: 6px 7px;
+}
