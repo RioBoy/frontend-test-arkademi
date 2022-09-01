@@ -9,6 +9,7 @@ import SpecialPromo from '../parts/HomePage/SpecialPromo';
 import Institution from '../parts/HomePage/Institution';
 import CourseList from '../parts/HomePage/CourseList';
 import Testimoni from '../parts/HomePage/Testimoni';
+import Footer from '../parts/Footer';
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Institution />
       <CourseList />
       <Testimoni />
+      <Footer />
     </>
   );
 }

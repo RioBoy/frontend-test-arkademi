@@ -29,6 +29,7 @@ module.exports = {
         'gray-primary': '#ACAEB2',
         'gray-secondary': '#94969B',
         'gray-third': '#C0C2C6',
+        'gray-fourth': '#5A5C60',
       },
       screens: {
         xsm: { max: '376px' },
