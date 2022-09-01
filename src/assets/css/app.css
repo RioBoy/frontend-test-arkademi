@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -41,7 +42,8 @@ header input.search-bar-mobile:not(:focus) {
 }
 
 .trending .card,
-.flash-sale .card {
+.flash-sale .card,
+.class-list .card {
   background-color: white;
   filter: drop-shadow(0px 3.5px 4px rgba(0, 0, 0, 0.131556)) !important;
 }
@@ -59,4 +61,21 @@ header input.search-bar-mobile:not(:focus) {
 .card-category {
   box-shadow: 0px 3.5px 4px rgba(0, 0, 0, 0.131556);
   background-color: white;
+}
+
+.testimoni {
+  background: linear-gradient(180deg, #f3f5f7 0%, #ffffff 100%);
+}
+
+.testimoni svg.bg-comma path {
+  fill: rgba(8, 114, 199, 0.299825);
+}
+
+.testimoni p {
+  font-family: 'Source Sans Pro', sans-serif;
+  @apply font-semibold italic text-[14px] leading-[23px] text-black-secondary;
+}
+
+.testimoni .card-testimoni {
+  box-shadow: 0 7px 29px 0 rgb(100 100 111 / 20%);
 }
