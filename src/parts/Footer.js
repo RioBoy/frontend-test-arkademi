@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="mt-[128px] mb-[68px]">
-      <div className="container">
-        <section className="footer-first">
+    <footer className="mt-[128px]">
+      <section className="footer-first">
+        <div className="container">
           <div className="flex flex-wrap items-center">
             <div className="w-5/12">
               <img
@@ -81,7 +81,7 @@ export default function Footer() {
                 <h6 className="font-extrabold text-[14px] leading-[17px] text-black-secondary mt-[25px]">
                   Akselerator
                 </h6>
-                <p className="font-normal text-xs text-gray-fourth mt-[9px]">
+                <p className="font-normal text-[12px] leading-[29px] text-gray-fourth mt-[9px]">
                   Arkademi adalah bagian program inkubasi dan akselerator dari
                   perusahaan top-level dunia: SOSV MOX (Mobile Only
                   Accelerator), Amazon Web Service (Edstart Program) dan Y
@@ -113,8 +113,383 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+      <section className="footer-second border-t-[3px] border-[#F1F2F4]">
+        <div className="container">
+          <div className="flex mt-[71px]">
+            <div className="w-8/12">
+              <div className="flex">
+                <div className="w-3/12">
+                  <div className="flex flex-col">
+                    <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mb-[15px]">
+                      Kategori Popular
+                    </h5>
+                    <ul>
+                      <li>
+                        <a
+                          href="/"
+                          className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                        >
+                          Keuangan
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                        >
+                          Perpajakan
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                        >
+                          Bisnis
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                        >
+                          Marketing
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                        >
+                          Kewirausahaan
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/"
+                          className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                        >
+                          Investasi
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="w-3/12">
+                  <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mb-[15px]">
+                    Lainnya
+                  </h5>
+                  <ul>
+                    <li>
+                      <a
+                        href="/"
+                        className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                      >
+                        Panduan
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/"
+                        className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                      >
+                        FAQ
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/"
+                        className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                      >
+                        Tentang Kami
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/"
+                        className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                      >
+                        Karier
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/"
+                        className="font-semibold text-[12px] leading-[29px] text-gray-fourth hover:underline"
+                      >
+                        Privacy Policy
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="w-6/12">
+                  <div className="flex flex-col">
+                    <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary">
+                      Metode Pembayaran
+                    </h5>
+                    <span className="grid items-center grid-cols-5 gap-[15px] mt-[28px]">
+                      <img
+                        src="/img/payment-1.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-2.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-3.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-4.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-5.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                    </span>
+                    <span className="grid items-center grid-rows-2 grid-cols-4 gap-[15px] mt-[15px]">
+                      <img
+                        src="/img/payment-6.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-7.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-8.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-9.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-10.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-11.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-12.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                      <img
+                        src="/img/payment-13.png"
+                        alt="payment"
+                        className="w-[100px] max-h-[23px]"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-2/12"></div>
+            <div className="w-3/12">
+              <div className="flex flex-col">
+                <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mb-5">
+                  Ikuti Kami
+                </h5>
+                <span className="flex items-center gap-[10px]">
+                  <a href="/" className="block h-[33px] w-[33px]">
+                    <svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 34 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="16.6901"
+                        cy="17"
+                        rx="16.6901"
+                        ry="16.5"
+                        fill="#3B5999"
+                      />
+                      <path
+                        d="M21.482 10.8473V7.86259C21.482 7.86259 18.3962 7.83325 18.1885 7.83325C16.794 7.83325 14.7911 9.40259 14.7911 11.1846V14.3819H11.8982V17.7699H14.7466V26.1666H18.1218V17.7259H21.1037L21.482 14.4186H18.1588C18.1588 14.4186 18.1588 12.3873 18.1588 11.9913C18.1588 11.4046 18.6039 10.8399 19.2715 10.8399C19.7166 10.8253 21.482 10.8473 21.482 10.8473Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                  <a href="/" className="block h-[33px] w-[33px]">
+                    <svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 34 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="17.095"
+                        cy="17"
+                        rx="16.6901"
+                        ry="16.5"
+                        fill="#E53935"
+                      />
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M11.1905 10.6125H22.9996C24.8541 10.6125 26.3673 12.1159 26.3673 13.9419V20.0505C26.3673 21.8839 24.8541 23.3799 22.9996 23.3799H11.1905C9.33599 23.3799 7.82275 21.8839 7.82275 20.0505V13.9419C7.82275 12.1085 9.33599 10.6125 11.1905 10.6125ZM14.7362 20.5639L17.6143 18.8039L20.4924 17.0439L17.6143 15.2839L14.7362 13.5239V17.0439V20.5639Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                  <a href="/" className="block h-[33px] w-[33px]">
+                    <svg
+                      width="35"
+                      height="34"
+                      viewBox="0 0 35 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="17.5"
+                        cy="17"
+                        rx="16.6901"
+                        ry="16.5"
+                        fill="url(#paint0_linear_9_2363)"
+                      />
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M13.9617 7.83325H21.0457C24.2057 7.83325 26.7723 10.3706 26.7723 13.4946V20.4979C26.7723 23.6219 24.2057 26.1593 21.0457 26.1593H13.9617C10.8017 26.1593 8.23514 23.6219 8.23514 20.4979V13.4946C8.23514 10.3706 10.8017 7.83325 13.9617 7.83325ZM21.0383 24.1279C23.0634 24.1279 24.7027 22.4999 24.7027 20.5053V13.5019C24.7027 11.4999 23.056 9.87925 21.0383 9.87925H13.9543C11.9292 9.87925 10.2899 11.5073 10.2899 13.5019V20.5053C10.2899 22.5073 11.9366 24.1279 13.9543 24.1279H21.0383Z"
+                        fill="white"
+                      />
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M12.76 17C12.76 14.4186 14.8889 12.314 17.5 12.314C20.1111 12.314 22.24 14.4186 22.24 17C22.24 19.5813 20.1111 21.686 17.5 21.686C14.8889 21.686 12.76 19.5813 12.76 17ZM14.6219 17C14.6219 18.5693 15.9126 19.8453 17.5 19.8453C19.0874 19.8453 20.3781 18.5693 20.3781 17C20.3781 15.4306 19.0874 14.1546 17.5 14.1546C15.9126 14.1546 14.6219 15.4306 14.6219 17Z"
+                        fill="white"
+                      />
+                      <ellipse
+                        cx="22.4728"
+                        cy="12.0459"
+                        rx="0.800801"
+                        ry="0.792144"
+                        transform="rotate(-9.20797 22.4728 12.0459)"
+                        fill="white"
+                      />
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_9_2363"
+                          x1="16.651"
+                          y1="41.2877"
+                          x2="40.0978"
+                          y2="17.5707"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stopColor="#FEE411" />
+                          <stop offset="0.0518459" stopColor="#FEDB16" />
+                          <stop offset="0.1381" stopColor="#FEC125" />
+                          <stop offset="0.2481" stopColor="#FE983D" />
+                          <stop offset="0.3762" stopColor="#FE5F5E" />
+                          <stop offset="0.5" stopColor="#FE2181" />
+                          <stop offset="1" stopColor="#9000DC" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a href="/" className="block h-[33px] w-[33px]">
+                    <svg
+                      width="34"
+                      height="34"
+                      viewBox="0 0 34 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="16.9049"
+                        cy="17"
+                        rx="16.6901"
+                        ry="16.5"
+                        fill="#0077B5"
+                      />
+                      <path
+                        d="M7.73648 13.9053H12.1723V26.1666H7.73648L7.73648 13.9053Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M21.5856 13.8906C18.4182 13.8906 17.8915 15.6066 17.8915 15.6066V13.9053H14.4644V26.1666H17.9286C17.9286 26.1666 17.9286 20.0946 17.9286 19.0973C17.9286 18.0926 18.5146 16.7726 20.3839 16.7726C22.2458 16.7726 22.4683 18.5766 22.4535 18.7966C22.4312 19.0166 22.4164 26.1666 22.4164 26.1666H26.0734C26.0734 26.1666 26.0734 19.1926 26.0734 17.66C26.0734 14.8953 24.2041 13.8906 21.5856 13.8906V13.8906Z"
+                        fill="white"
+                      />
+                      <ellipse
+                        cx="9.96183"
+                        cy="10.0259"
+                        rx="2.21793"
+                        ry="2.19267"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </span>
+              </div>
+              <div className="flex flex-col">
+                <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mt-[34px] mb-[19px]">
+                  Arkademi Mobile App
+                </h5>
+                <span className="flex items-center gap-[15px]">
+                  <div className="w-1/2">
+                    <a href="/">
+                      <img src="/img/app-store.png" alt="App Store" />
+                    </a>
+                  </div>
+                  <div className="w-1/2">
+                    <a href="/">
+                      <img src="/img/google-play.png" alt="Google Play" />
+                    </a>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="footer-third bg-[#F1F2F4] mt-[59px]">
+        <div className="container">
+          <div className="flex items-center justify-between py-[22px]">
+            <p className="font-light text-[13px] leading-[16px] text-gray-secondary">
+              2022 PT Arkademi Daya Indonesia
+            </p>
+            <ul className="flex gap-[54px]">
+              <li>
+                <a
+                  href="/"
+                  className="font-semibold text-[12px] leading-[14px] text-gray-fourth hover:underline"
+                >
+                  Ketentuan Layanan
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  className="font-semibold text-[12px] leading-[14px] text-gray-fourth hover:underline"
+                >
+                  Kontak
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </footer>
   );
 }
