@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="mt-[128px]">
+    <footer className="mt-[104px]">
       <section className="footer-first">
         <div className="container">
           <div className="flex flex-wrap items-center">

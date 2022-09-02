@@ -1,4 +1,6 @@
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 import TestimoniCard from '../../components/TestimoniCard';
 
@@ -33,20 +35,45 @@ export default function TestimoniList() {
       content: `Saya beruntung bergabung ke kursus online di Arkademi. Metode penyampaian sangat jelas singkat dan memudahkan belajar. Ditambah lagi tampilan presentasi yang membuat kita tidak jenuh dalam belajar online.`,
     },
   ];
+
   return (
-    <div className="grid grid-cols-3 gap-[31px]">
-      {testimoni.map((list, index) => {
-        return (
+    <Swiper
+      spaceBetween={31}
+      breakpoints={{
+        320: {
+          slidesPerView: 1,
+        },
+        375: {
+          slidesPerView: 1,
+        },
+        425: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 'auto',
+        },
+        1440: {
+          slidesPerView: 'auto',
+        },
+      }}
+      draggable={true}
+      grabCursor={true}
+      className="grid grid-cols-3"
+    >
+      {testimoni.map((list, index) => (
+        <SwiperSlide key={index}>
           <TestimoniCard
             userPhoto={list.photo}
             userName={list.name}
             userLocation={list.place}
             course={list.course}
             content={list.content}
-            key={index}
           />
-        );
-      })}
-    </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 }

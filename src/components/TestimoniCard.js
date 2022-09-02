@@ -8,7 +8,7 @@ export default function TestimoniCard({
   content,
 }) {
   return (
-    <div className="card-testimoni p-[35px] bg-white rounded-[14px]">
+    <div className="card-testimoni">
       <div className="flex flex-col">
         <svg
           width="24px"
