@@ -4,7 +4,7 @@ import InstitutionCard from '../../components/InstitutionCard';
 
 export default function InstitutionList() {
   return (
-    <div className="grid grid-rows-2 grid-cols-7 gap-[15px]">
+    <div className="grid grid-rows-4 lg:grid-rows-2 grid-cols-3 lg:grid-cols-7 gap-[9px] lg:gap-[15px]">
       <InstitutionCard
         imgCard="/img/institution-1.png"
         altName="Media Cipta Prestasi"

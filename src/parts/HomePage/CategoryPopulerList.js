@@ -11,7 +11,7 @@ import LanguageImg from '../../assets/img/bahasa.png';
 
 export default function CategoryPopulerList() {
   return (
-    <div className="grid grid-cols-7 gap-[15px] mt-[27px]">
+    <div className="grid grid-cols-1 grid-rows-[7] lg:grid-cols-7 gap-2 lg:gap-[15px] mt-[15px] lg:mt-[27px]">
       <CategoryCard imgCard={BisnisImg} altName="Bisnis" />
       <CategoryCard imgCard={MoneyImg} altName="Keuangan" />
       <CategoryCard imgCard={CarierImg} altName="Pengembangan Karir" />
