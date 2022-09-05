@@ -6,7 +6,7 @@ export default function Footer() {
       <section className="footer-first">
         <div className="container">
           <div className="flex flex-wrap items-center">
-            <div className="w-5/12">
+            <div className="w-full lg:w-5/12">
               <img
                 src="/img/image-footer.png"
                 alt="Gallery"
@@ -14,7 +14,7 @@ export default function Footer() {
               />
             </div>
             <div className="w-1/12"></div>
-            <div className="w-6/12">
+            <div className="w-full lg:w-6/12">
               <div className="flex flex-col">
                 <svg
                   width="144"
@@ -68,7 +68,7 @@ export default function Footer() {
                     fill="#0977BE"
                   />
                 </svg>
-                <p className="font-semibold text-xs text-black-secondary mt-[14px]">
+                <p className="font-semibold text-[11px] leading-[18px] lg:text-xs text-black-secondary mt-[14px]">
                   Arkademi adalah massive open online course (MOOC) platform
                   karya anak bangsa Indonesia. Pembelajaran di Arkademi
                   dikhususkan untuk skill based learning atau pembelajaran
@@ -81,33 +81,33 @@ export default function Footer() {
                 <h6 className="font-extrabold text-[14px] leading-[17px] text-black-secondary mt-[25px]">
                   Akselerator
                 </h6>
-                <p className="font-normal text-[12px] leading-[29px] text-gray-fourth mt-[9px]">
+                <p className="font-normal text-[11px] lg:text-[12px] leading-[18px] lg:leading-[29px] text-gray-fourth mt-[9px]">
                   Arkademi adalah bagian program inkubasi dan akselerator dari
                   perusahaan top-level dunia: SOSV MOX (Mobile Only
                   Accelerator), Amazon Web Service (Edstart Program) dan Y
                   Combinator (Startup School) yang dipilih dari tech startup
                   edukasi terbaik dunia.
                 </p>
-                <span className="flex mt-5">
+                <span className="flex xsm:flex-wrap xsm:gap-y-5 mt-5 mb-[49px] lg:mb-0">
                   <img
                     src="/img/company-1.png"
                     alt="Company"
-                    className="h-[23px] w-fit mr-4"
+                    className="h-[16px] lg:h-[23px] w-fit mr-4"
                   />
                   <img
                     src="/img/company-2.png"
                     alt="Company"
-                    className="h-[23px] w-fit mr-4"
+                    className="h-[16px] lg:h-[23px] w-fit mr-4"
                   />
                   <img
                     src="/img/company-3.png"
                     alt="Company"
-                    className="h-[23px] w-fit mr-4"
+                    className="h-[16px] lg:h-[23px] w-fit mr-4"
                   />
                   <img
                     src="/img/company-4.png"
                     alt="Company"
-                    className="h-[23px] w-fit mr-4"
+                    className="h-[16px] lg:h-[23px] w-fit mr-4"
                   />
                 </span>
               </div>
@@ -117,10 +117,10 @@ export default function Footer() {
       </section>
       <section className="footer-second border-t-[3px] border-[#F1F2F4]">
         <div className="container">
-          <div className="flex mt-[71px]">
-            <div className="w-8/12">
-              <div className="flex">
-                <div className="w-3/12">
+          <div className="flex flex-wrap mt-[43px] lg:mt-[71px] gap-[40px] lg:gap-0">
+            <div className="w-full lg:w-7/12">
+              <div className="flex flex-wrap gap-[31px] lg:gap-0">
+                <div className="w-full lg:w-3/12">
                   <div className="flex flex-col">
                     <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mb-[15px]">
                       Kategori Popular
@@ -177,7 +177,7 @@ export default function Footer() {
                     </ul>
                   </div>
                 </div>
-                <div className="w-3/12">
+                <div className="w-full lg:w-3/12">
                   <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mb-[15px]">
                     Lainnya
                   </h5>
@@ -224,7 +224,7 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-                <div className="w-6/12">
+                <div className="w-full lg:w-6/12">
                   <div className="flex flex-col">
                     <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary">
                       Metode Pembayaran
@@ -303,7 +303,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="w-2/12"></div>
-            <div className="w-3/12">
+            <div className="w-full lg:w-3/12">
               <div className="flex flex-col">
                 <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mb-5">
                   Ikuti Kami
@@ -463,13 +463,13 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <section className="footer-third bg-[#F1F2F4] mt-[59px]">
+      <section className="footer-third bg-[#F1F2F4] mt-[26px] lg:mt-[59px]">
         <div className="container">
-          <div className="flex items-center justify-between py-[22px]">
-            <p className="font-light text-[13px] leading-[16px] text-gray-secondary">
+          <div className="flex flex-wrap items-center justify-center lg:justify-between py-[22px]">
+            <p className="font-light text-[9px] w-full lg:w-auto text-center lg:text-[13px] leading-[10px] lg:leading-[16px] text-gray-secondary">
               2022 PT Arkademi Daya Indonesia
             </p>
-            <ul className="flex gap-[54px]">
+            <ul className="flex gap-[31px] lg:gap-[54px]">
               <li>
                 <a
                   href="/"

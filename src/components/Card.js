@@ -4,7 +4,7 @@ import CardThumbnail from '../assets/img/thumbnail.jpg';
 
 export default function Card() {
   return (
-    <div className="card mt-[23px] rounded-[10px] overflow-hidden">
+    <div className="card rounded-[10px] mt-[23px] overflow-hidden mb-[48px] lg:mb-[75px]">
       <img src={CardThumbnail} alt="Thumbnail" />
       <div className="flex flex-col px-[17px]">
         <span className="block font-bold text-xs text-gray-secondary mt-[14px]">

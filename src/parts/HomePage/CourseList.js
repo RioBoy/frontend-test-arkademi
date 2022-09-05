@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Class from './Course';
+import Course from './Course';
 
 export default function ClassList() {
   const classListHeader = [
@@ -18,7 +18,7 @@ export default function ClassList() {
     <section className="class-list">
       <div className="container">
         {classListHeader.map((list, index) => {
-          return <Class list={list} key={index} />;
+          return <Course list={list} key={index} />;
         })}
       </div>
     </section>

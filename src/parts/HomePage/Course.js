@@ -4,19 +4,19 @@ import Card from '../../components/Card';
 
 export default function Class({ list }) {
   return (
-    <div className="flex flex-col mb-[75px]">
+    <div className="flex flex-col">
       <div className="flex items-center justify-between">
-        <h5 className="font-extrabold text-xl text-black-primary">
+        <h5 className="font-extrabold text-base lg:text-xl text-black-primary">
           {list.headerName}
         </h5>
         <a
           href="/"
-          className="font-extrabold text-[15px] leading-[18px] text-blue-fourth"
+          className="font-extrabold text-[11px] l:text-[15px] leading-[14px] lg:leading-[18px] text-blue-fourth"
         >
           Lihat Semua
         </a>
       </div>
-      <div className="list-card">
+      <div className="list-card mt-[19px] lg:mt-[23px]">
         <div className="grid grid-cols-4 gap-[15px]">
           <Card />
           <Card />

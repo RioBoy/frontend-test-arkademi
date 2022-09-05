@@ -23,10 +23,10 @@ export default function TestimoniCard({
         <div className="flex items-center gap-[13px] mt-5">
           <img src={userPhoto} alt="User" className="h-[42px] w-[42px]" />
           <div className="flex flex-col gap-[6px]">
-            <span className="block font-bold text-[14px] leading-[17px] text-black-secondary">
+            <span className="block font-bold text-[11px] lg:text-[14px] leading-[14px] lg:leading-[17px] text-black-secondary">
               {userName} ({userLocation})
             </span>
-            <span className="block font-medium text-[11px] leading-[13px] text-gray-secondary">
+            <span className="block font-medium text-[9px] lg:text-[11px] leading-[11px] lg:leading-[13px] text-gray-secondary">
               {course}
             </span>
           </div>

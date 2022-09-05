@@ -78,9 +78,15 @@ header input.search-bar-mobile:not(:focus) {
 
 .testimoni .card-testimoni {
   box-shadow: 0 7px 29px 0 rgb(100 100 111 / 20%);
-  @apply p-[35px] my-[24px] bg-white rounded-[14px];
+  @apply py-[30px] px-[25px] lg:p-[35px] my-[24px] bg-white rounded-[14px];
 }
 
 .footer-first p {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media screen and (max-width: 426px) {
+  .testimoni p {
+    @apply text-[11px] leading-[19px];
+  }
 }

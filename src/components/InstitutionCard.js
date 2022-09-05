@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function InstitutionCard({ imgCard, altName }) {
   return (
-    <div className="card-category flex flex-col items-center justify-center py-[27px] px-[19px] rounded-[10px]">
+    <div className="card-category flex flex-col items-center justify-center py-[17px] lg:py-[27px] px-3 lg:px-[19px] rounded-[10px]">
       <img
         src={imgCard}
         alt={altName}
