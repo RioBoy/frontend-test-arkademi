@@ -446,17 +446,26 @@ export default function Footer() {
                 <h5 className="font-extrabold text-[15px] leading-[18px] text-black-secondary mt-[34px] mb-[19px]">
                   Arkademi Mobile App
                 </h5>
-                <span className="flex items-center gap-[15px]">
-                  <div className="w-1/2">
+                <span className="flex items-center gap-[11px] lg:gap-[15px]">
+                  <div className="w-5/12 lg:w-1/2">
                     <a href="/">
-                      <img src="/img/app-store.png" alt="App Store" />
+                      <img
+                        src="/img/app-store.png"
+                        alt="App Store"
+                        className="h-[41px] md:h-auto w-full md:w-auto"
+                      />
                     </a>
                   </div>
-                  <div className="w-1/2">
+                  <div className="w-5/12 lg:w-1/2">
                     <a href="/">
-                      <img src="/img/google-play.png" alt="Google Play" />
+                      <img
+                        src="/img/google-play.png"
+                        alt="Google Play"
+                        className="h-[41px] md:h-auto w-full md:w-auto"
+                      />
                     </a>
                   </div>
+                  <div className="w-2/12 block md:hidden"></div>
                 </span>
               </div>
             </div>

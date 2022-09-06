@@ -1,6 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
 import 'swiper/css';
+import 'swiper/css/pagination';
 
 import TestimoniCard from '../../components/TestimoniCard';
 
@@ -42,25 +44,27 @@ export default function TestimoniList() {
       breakpoints={{
         320: {
           slidesPerView: 1,
-        },
-        375: {
-          slidesPerView: 1,
-        },
-        425: {
-          slidesPerView: 1,
+          pagination: {
+            enabled: true,
+            clickable: true,
+            el: '.custom-div-bullets-swiper',
+          },
         },
         768: {
           slidesPerView: 2,
+          pagination: {
+            enabled: false,
+            clickable: false,
+            el: '.custom-div-bullets-swiper',
+          },
         },
         1024: {
-          slidesPerView: 'auto',
-        },
-        1440: {
           slidesPerView: 'auto',
         },
       }}
       draggable={true}
       grabCursor={true}
+      modules={[Pagination]}
       className="grid grid-cols-3"
     >
       {testimoni.map((list, index) => (

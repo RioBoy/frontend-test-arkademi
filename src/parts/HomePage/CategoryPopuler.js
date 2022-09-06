@@ -4,7 +4,7 @@ import CategoryPopulerList from './CategoryPopulerList';
 
 export default function CategoryPopuler() {
   return (
-    <section className="category-populer-list mt-[48px] lg:mt-[65px]">
+    <section className="category-populer-list">
       <div className="container">
         <h5 className="font-extrabold text-base lg:text-xl text-black-primary">
           Kategori Terpopuler

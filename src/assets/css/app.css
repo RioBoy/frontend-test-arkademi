@@ -78,11 +78,15 @@ header input.search-bar-mobile:not(:focus) {
 
 .testimoni .card-testimoni {
   box-shadow: 0 7px 29px 0 rgb(100 100 111 / 20%);
-  @apply py-[30px] px-[25px] lg:p-[35px] my-[24px] bg-white rounded-[14px];
+  @apply py-[30px] px-[25px] lg:p-[35px] my-[24px] bg-white rounded-[14px] h-auto xl:h-[280px];
 }
 
 .footer-first p {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.custom-div-bullets-swiper {
+  @apply flex justify-center md:hidden;
 }
 
 @media screen and (max-width: 426px) {

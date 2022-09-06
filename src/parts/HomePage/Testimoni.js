@@ -10,6 +10,7 @@ export default function Testimoni() {
           Testimoni
         </h1>
         <TestimoniList />
+        <div className="custom-div-bullets-swiper" />
       </div>
     </section>
   );

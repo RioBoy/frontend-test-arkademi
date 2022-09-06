@@ -16,7 +16,7 @@ export default function Class({ list }) {
           Lihat Semua
         </a>
       </div>
-      <div className="list-card mt-[19px] lg:mt-[23px]">
+      <div className="list-card mt-[3px] lg:mt-[7px]">
         <div className="grid grid-cols-4 gap-[15px]">
           <Card />
           <Card />
